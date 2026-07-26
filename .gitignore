@@ -1,0 +1,7 @@
+data/raw-data-files/*.csv
+data/raw-data-files/*.csv.gz
+data/raw-data-files/*.geojson
+data/processed/*.csv
+__pycache__/
+.DS_Store
+venv*
