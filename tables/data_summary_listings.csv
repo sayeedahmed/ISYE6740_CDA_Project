@@ -1,0 +1,10 @@
+metric,value
+raw_rows,11295
+clean_rows,10230
+raw_columns,see raw file
+clean_columns,110
+min_price,7.95
+median_price,216.0
+mean_price,311.58
+max_price,3566.5
+price_upper_filter_99_5_pct,3646.3

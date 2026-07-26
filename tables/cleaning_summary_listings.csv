@@ -1,0 +1,9 @@
+step,rows_before,rows_after,rows_removed
+drop duplicate listing_id records,11295,11295,0
+"remove missing, zero, or negative prices",11295,10321,974
+"remove prices above 99.5th percentile ($3,646.30)",10321,10269,52
+remove invalid or out-of-region coordinates,10269,10269,0
+remove implausible accommodates values,10269,10269,0
+remove implausible bedroom values,10269,10243,26
+remove implausible bed values,10243,10231,12
+remove implausible bathroom values,10231,10230,1

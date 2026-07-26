@@ -96,7 +96,10 @@ def has_amenity(amenities, keywords):
 
 
 def add_amenity_features(df):
-    amenities_list = df["amenities"].apply(parse_amenities) if "amenities" in df.columns else [[] for _ in range(len(df))]
+    if "amenities" in df.columns:
+        amenities_list = df["amenities"].apply(parse_amenities)
+    else:
+        amenities_list = pd.Series([[] for _ in range(len(df))], index=df.index)
 
     df["amenity_count"] = amenities_list.apply(len)
     df["has_wifi"] = amenities_list.apply(lambda x: has_amenity(x, ["wifi", "internet"]))
@@ -124,11 +127,20 @@ def add_cleaning_step(summary, step, before, after):
 
 
 def main():
-    input_path = RAW_DIR / "listings.csv"
-    if not input_path.exists():
-        raise FileNotFoundError(f"Could not find {input_path}")
+    input_candidates = [
+        RAW_DIR / "listings.csv.gz",
+        RAW_DIR / "listings.csv",
+    ]
 
-    df = pd.read_csv(input_path, low_memory=False)
+    input_path = next((p for p in input_candidates if p.exists()), None)
+
+    if input_path is None:
+        raise FileNotFoundError(
+            "Could not find listings.csv.gz or listings.csv in raw-data-files."
+        )
+
+    df = pd.read_csv(input_path, compression="infer", low_memory=False)
+    
     cleaning_summary = []
 
     original_rows = len(df)

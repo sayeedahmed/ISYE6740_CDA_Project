@@ -1,0 +1,12 @@
+metric,value
+source_file,/Users/sana/Projects/Education-OMSA/14-ISYE6740-ComputationalDataAnalysis/Project/airbnb-overpricing-project/data/raw-data-files/calendar.csv.gz
+raw_rows_loaded,4131800
+calendar_feature_rows,11320
+calendar_start_date,2026-06-22
+calendar_end_date,2027-07-01
+invalid_date_rows_removed,0
+unique_listing_ids_in_calendar,11320
+mean_availability_rate,0.6211
+median_availability_rate,0.7151
+mean_calendar_price,
+median_calendar_price,
