@@ -1,0 +1,11 @@
+metric,value
+rows_scored,10230.0
+simple_peer_groups,101.0
+capacity_peer_groups,303.0
+simple_peer_fallback_count,247.0
+capacity_peer_fallback_count,1139.0
+listings_global_top_10_pct,1024.0
+listings_simple_peer_top_10_pct,1058.0
+listings_capacity_peer_top_10_pct,1114.0
+median_residual_signal_score,50.17
+mean_residual_signal_score,50.24

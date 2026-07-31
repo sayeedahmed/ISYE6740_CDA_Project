@@ -1,0 +1,9 @@
+x,y,spearman_correlation
+residual_signal_score,availability_rate,0.006469715381273356
+residual_signal_score,reviews_last_365_days,0.01044872347325842
+cluster_adjusted_signal_score,availability_rate,-0.006954054381441328
+cluster_adjusted_signal_score,reviews_last_365_days,-0.09804818788705225
+final_overpricing_score,availability_rate,0.13039736812145616
+final_overpricing_score,reviews_last_365_days,-0.1909633250133105
+oof_percent_above_expected,availability_rate,0.0063080487710699415
+oof_percent_above_expected,reviews_last_365_days,0.008543243515687238

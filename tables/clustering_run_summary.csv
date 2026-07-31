@@ -1,0 +1,11 @@
+metric,value
+rows_clustered,10230.0
+input_features,59.0
+numeric_features,55.0
+categorical_features,4.0
+pca_components_used,15.0
+pca_cumulative_variance_used,0.7521
+selected_kmeans_k,7.0
+selected_kmeans_silhouette,0.1571
+median_cluster_anomaly_score,49.22
+mean_cluster_anomaly_score,50.0

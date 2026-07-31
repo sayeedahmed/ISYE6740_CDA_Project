@@ -7,18 +7,6 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 
-# RAW_DIR_CANDIDATES = [
-#     ROOT / "raw-data-files",
-#     ROOT / "data" / "raw-data-files",
-# ]
-
-# RAW_DIR = next((p for p in RAW_DIR_CANDIDATES if p.exists()), None)
-# if RAW_DIR is None:
-#     raise FileNotFoundError(
-#         "Could not find raw-data-files folder. Expected either "
-#         "'raw-data-files/' or 'data/raw-data-files/' under the project root."
-#     )
-
 RAW_DIR = ROOT / "data" / "raw-data-files"
 PROCESSED_DIR = ROOT / "data" / "processed"
 TABLES_DIR = ROOT / "tables"

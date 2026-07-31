@@ -1,0 +1,13 @@
+metric,value
+source_file,/Users/sana/Projects/Education-OMSA/14-ISYE6740-ComputationalDataAnalysis/Project/airbnb-overpricing-project/data/raw-data-files/reviews.csv.gz
+raw_rows_loaded,643210
+valid_review_rows,643210
+invalid_date_rows_removed,0
+review_feature_rows,9451
+unique_listing_ids_in_reviews,9451
+earliest_review_date,2009-03-19
+latest_review_date_used_as_analysis_date,2026-07-01
+mean_reviews_per_reviewed_listing,68.06
+median_reviews_per_reviewed_listing,26.0
+mean_days_since_last_review,187.88
+median_days_since_last_review,45.0

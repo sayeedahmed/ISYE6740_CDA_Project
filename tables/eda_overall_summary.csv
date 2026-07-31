@@ -1,0 +1,12 @@
+metric,value
+rows,10230.0
+columns,164.0
+unique_listings,10230.0
+median_price,216.0
+mean_price,311.58
+min_price,7.95
+max_price,3566.5
+median_availability_rate,0.737
+mean_availability_rate,0.6571
+listings_with_reviews,8616.0
+listings_without_reviews,1614.0

@@ -1,0 +1,10 @@
+metric,value
+listings_clean_rows,10230
+calendar_feature_rows,11320
+review_feature_rows,9451
+modeling_table_rows,10230
+listings_with_calendar_features,10230
+listings_with_review_features,8616
+listings_without_review_features,1614
+rows_removed_missing_target,0
+modeling_table_columns,164

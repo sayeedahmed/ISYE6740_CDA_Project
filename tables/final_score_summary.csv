@@ -1,0 +1,13 @@
+metric,value
+rows_scored,10230.0
+mean_final_overpricing_score,50.14
+median_final_overpricing_score,49.77
+strong_candidates,13.0
+moderate_candidates,62.0
+watchlist_candidates,533.0
+not_flagged,9622.0
+median_actual_price,216.0
+median_predicted_price,217.74
+median_percent_above_expected,-1.89
+median_availability_rate,0.737
+median_reviews_last_365_days,5.0

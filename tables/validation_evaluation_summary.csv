@@ -1,0 +1,18 @@
+metric,value
+best_trained_model,Gradient boosting
+best_baseline_model,Neighborhood + room type + capacity median
+best_trained_rmse_log,0.319
+best_baseline_rmse_log,0.5547
+rmse_log_improvement_over_best_baseline_pct,42.48
+best_trained_mae_price,79.63
+best_baseline_mae_price,126.83
+mae_price_improvement_over_best_baseline_pct,37.21
+best_trained_r2_log,0.8526
+strong_candidates,13
+moderate_candidates,62
+watchlist_candidates,533
+not_flagged,9622
+median_final_score_top_decile,81.17
+median_availability_top_final_decile,0.8685
+median_reviews_last_365_top_final_decile,1.0
+median_percent_above_expected_top_final_decile,53.71
